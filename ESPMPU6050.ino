@@ -173,7 +173,7 @@ void sendWebPage(WiFiClient client) {
   client.println("Content-Type: text/html");
   client.println();
   client.println("<html><body>");
-  client.println("<h1>Posture Monitoring System</h1>");
+  client.println("<h1>Position Monitoring System</h1>");
   client.println("<p>Press the button below to calibrate baseline posture:</p>");
   client.println("<form action=\"/calibrate\" method=\"GET\"><button>Calibrate</button></form>");
   client.println("<p>View incorrect posture history:</p>");
